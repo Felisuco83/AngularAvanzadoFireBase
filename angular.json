@@ -5,6 +5,11 @@
   "projects": {
     "tema9-redux": {
       "projectType": "application",
+      "i18n": {
+        "locales": {
+          "en": "/src/locale/messages.en.xlf"
+        }
+      },
       "schematics": {
         "@schematics/angular:component": {
           "style": "sass"
@@ -57,6 +62,11 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
+            },
+            "en": {
+              "localize": [
+                "en"
+              ]
             }
           },
           "defaultConfiguration": "production"
@@ -69,6 +79,9 @@
             },
             "development": {
               "browserTarget": "tema9-redux:build:development"
+            },
+            "en": {
+              "browserTarget": "tema9-redux:build:development,en"
             }
           },
           "defaultConfiguration": "development"
@@ -100,5 +113,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

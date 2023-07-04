@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="2206690686627422203" datatype="html">
+        <source>Mostrar</source>
+        <target>Show</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8242485735462684029" datatype="html">
+        <source>Cambiar</source>
+        <target>Change</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8327983062626887983" datatype="html">
+        <source>Componente DOS</source>
+        <target>Component TWO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dos/dos.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5185796183674467740" datatype="html">
+        <source> MENSAJE DEL STORE <x id="INTERPOLATION" equiv-text="{{mensaje}}"/></source>
+        <target> STORE MESSAGE <x id="INTERPOLATION" equiv-text="{{mensaje}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dos/dos.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3600411157026889850" datatype="html">
+        <source> VALOR DEL STORE <x id="INTERPOLATION" equiv-text="{{valor}}"/></source>
+        <target> STORE VALUE <x id="INTERPOLATION" equiv-text="{{mensaje}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dos/dos.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3764685779240209861" datatype="html">
+        <source>Componente Uno</source>
+        <target>Component One</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/uno/uno.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2064304571543084949" datatype="html">
+        <source>ACTUALIZAR EL MENSAJE</source>
+        <target>UPDATE MESSAGE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/uno/uno.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="647851570789111367" datatype="html">
+        <source>ACTUALIZAR EL VALOR</source>
+        <target>UPDATE VALUE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/uno/uno.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
